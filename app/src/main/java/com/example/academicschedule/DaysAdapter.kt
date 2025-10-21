@@ -30,7 +30,7 @@ class DaysAdapter(private val days : List<DailySchedule>) :
         position: Int
     ) {
         val day = days[position]
-        val lessonsAdapter = LessonsAdapter(day.lessonsList)
+        val lessonsAdapter = LessonsInWeekFragmentAdapter(day.lessonsList)
 
         val myLayoutManager = LinearLayoutManager(
             holder.itemView.context,
