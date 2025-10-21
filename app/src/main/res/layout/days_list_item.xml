@@ -15,12 +15,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
-    <TextClock
+    <TextView
         android:id="@+id/date"
         android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:format24Hour="EEEE, d MMMM yyyy"
         app:layout_constraintStart_toEndOf="@id/day_of_week"
         app:layout_constraintTop_toTopOf="parent"/>
 
@@ -28,9 +27,8 @@
         android:id="@+id/list_of_lessons"
         android:layout_margin="5dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:nestedScrollingEnabled="false"
+        android:layout_height="match_parent"
         app:layout_constraintTop_toBottomOf="@id/day_of_week"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

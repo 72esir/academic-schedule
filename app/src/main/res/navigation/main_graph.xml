@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main_graph">
+    android:id="@+id/main_graph"
+    app:startDestination="@id/weekScheduleFragment">
 
+    <fragment
+        android:id="@+id/weekScheduleFragment"
+        android:name="com.example.academicschedule.WeekScheduleFragment"
+        android:label="WeekScheduleFragment" />
 </navigation>
