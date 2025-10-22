@@ -55,9 +55,9 @@ class WeekScheduleFragment: Fragment(R.layout.fragment_week_schedule) {
             else -> {weekSchedule.evenWeek}
         }
 
-        binding.myRecycler.apply {
+        binding.weekSchedule.apply {
             layoutManager = LinearLayoutManager(requireContext())
-            adapter = DaysAdapter(daysToShow).also { adapter = it }
+            adapter = DaysAdapter(daysToShow)
             setHasFixedSize(true)
         }
     }

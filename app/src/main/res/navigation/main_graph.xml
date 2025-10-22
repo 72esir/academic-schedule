@@ -8,4 +8,10 @@
         android:id="@+id/weekScheduleFragment"
         android:name="com.example.academicschedule.WeekScheduleFragment"
         android:label="WeekScheduleFragment" />
+
+    <fragment
+        android:id="@+id/todayScheduleFragment"
+        android:name="com.example.academicschedule.TodayScheduleFragment"
+        android:label="TodayScheduleFragment" />
+
 </navigation>

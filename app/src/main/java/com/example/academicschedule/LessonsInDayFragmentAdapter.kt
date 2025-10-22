@@ -32,7 +32,6 @@ class LessonsInDayFragmentAdapter (private val lessons: List<Lesson>) :
     }
 
     override fun getItemCount(): Int {
-        println("DEBUG: Lessons count = ${lessons.size}")
         return lessons.size
     }
 
